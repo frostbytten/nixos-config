@@ -32,6 +32,10 @@
   };
 
   console.useXkbConfig = true;
+  programs.ssh = {
+    startAgent = true;
+    enableAskPassword = false;
+  };
   services.udisks2.enable = true;
 
   # Home Manager settings
@@ -56,7 +60,10 @@
       userEmail = "villalobosca@protonmail.com";
     };
 
-    programs.password-store.enable = true;
+    programs.password-store = {
+      enable = true;
+      settings = { PASSWORD_STORE_DIR = "$HOME/.password-store"; };
+    };
     home.stateVersion = "22.05";
   };
 
