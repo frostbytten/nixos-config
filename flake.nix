@@ -29,6 +29,7 @@
             ./modules/desktop.nix
             ./modules/bspwm.nix
             ./modules/audio.nix
+	    ./modules/games.nix
           ];
         };
       };
