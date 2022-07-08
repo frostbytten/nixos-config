@@ -11,6 +11,7 @@ in
 {
   networking = {
     hostName = "kurapika";
+    hostId = "871f1022";
     networkmanager.enable = true;
     interfaces = {
       enp3s0.useDHCP = lib.mkDefault true;
@@ -39,4 +40,5 @@ in
   boot.kernelParams = ["nohibernate"];
   zramSwap.enable = true;
   zramSwap.memoryPercent = 150;
+  
 }
