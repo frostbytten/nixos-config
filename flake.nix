@@ -28,6 +28,7 @@
 	    ./modules/base.nix
             ./modules/desktop.nix
             ./modules/bspwm.nix
+	    ./modules/audio.nix
           ];
         };
       };

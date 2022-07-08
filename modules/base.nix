@@ -6,6 +6,7 @@
     gnupg
     neovim
     networkmanager
+    nixfmt
     pciutils
     ripgrep
     tree
