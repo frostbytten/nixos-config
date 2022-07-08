@@ -25,10 +25,10 @@
             nixos-hardware.nixosModules.system76
             home-manager.nixosModules.home-manager
             ./machines/kurapika.nix
-	    ./modules/base.nix
+            ./modules/base.nix
             ./modules/desktop.nix
             ./modules/bspwm.nix
-	    ./modules/audio.nix
+            ./modules/audio.nix
           ];
         };
       };
