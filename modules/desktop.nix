@@ -12,4 +12,9 @@
   home-manager.users.frostbytten = {
     home.packages = with pkgs; [ firefox kitty ];
   };
+
+  fonts.fonts = with pkgs; [
+    (nerdfonts.override { fonts =  [ "DroidSansMono" "FiraCode" "JetBrainsMono" "Noto" "Hack" "Hasklig"]; })
+    siji
+  ];
 }

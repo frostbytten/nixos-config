@@ -1,5 +1,6 @@
 { config, pkgs, ... }: {
+  hardware.opengl.driSupport32Bit = true;
   home-manager.users.frostbytten = {
-    home.pkgs = with pkgs; [ steam lutris nxengine-evo ]; 
+    home.packages = with pkgs; [ steam lutris nxengine-evo ];
   };
 }
