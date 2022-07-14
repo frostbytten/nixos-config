@@ -33,6 +33,8 @@
     };
 
     services.dunst.enable = true;
+    services.betterlockscreen.enable = true;
+
   };
 
   imports = [ ./polybar.nix ];

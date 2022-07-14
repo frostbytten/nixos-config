@@ -25,7 +25,7 @@ in {
         "module/bspwm" = {
           type = "internal/bspwm";
           occupied.scroll = false;
-          format = "<label-state>";
+          format = "<label-state> <label-mode>";
           label.focused = {
             text = "%name%";
             background = backgroundAltColor;
